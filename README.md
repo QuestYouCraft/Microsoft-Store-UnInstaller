@@ -1,4 +1,5 @@
 # Microsoft Store Installer
+**[[Download Latest Release]](/releases/latest)**
 ## Content
 - [What's this?](#whats-this) 
 - [System requirements](#system-requirements)
