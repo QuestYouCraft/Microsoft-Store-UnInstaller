@@ -1,5 +1,5 @@
 # Microsoft Store Installer
-**[[Download Latest Release]](/releases/latest)**
+**[[Download Latest Release]](https://github.com/QuestYouCraft/Microsoft-Store-Installer/releases/latest)**
 ## Content
 - [What's this?](#whats-this) 
 - [System requirements](#system-requirements)
