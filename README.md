@@ -4,7 +4,7 @@
 - [What's this?](#whats-this) 
 - [System requirements](#system-requirements)
 - [Description of UWP components](#description-of-uwp-components)
-   - [Required]()
+   - [Required](#required)
       - [.NET Native Framework](#net-native-framework)
       - [.NET Native Runtime](#net-native-runtime)
       - [Visual C Libraries (VCLibs)](#visual-c-libraries-vclibs)
