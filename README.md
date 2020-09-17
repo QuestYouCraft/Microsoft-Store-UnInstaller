@@ -20,7 +20,6 @@
 ## Description of UWP components
 ### Required
 Components UWP apps can't run without. These components are not displayed in MSI, because they are installed automatically along with one of your selected components.
-P.S.: This compon
 #### .NET Native Framework
 Structure of UWP applications written in the ".NET Native" programming environment.
 #### .NET Native Runtime
