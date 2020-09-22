@@ -1,5 +1,6 @@
 # Microsoft Store Installer
-**[[Download Latest Release]](https://github.com/QuestYouCraft/Microsoft-Store-Installer/releases/latest)**
+![](https://github.com/QuestYouCraft/Microsoft-Store-Installer/raw/master/Main_icon.ico)   
+### **[[Download Latest Release]](https://github.com/QuestYouCraft/Microsoft-Store-Installer/releases/latest)**
 ## Content
 - [What's this?](#whats-this) 
 - [System requirements](#system-requirements)
