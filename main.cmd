@@ -1,6 +1,6 @@
 @echo off
 for /f "tokens=6 delims=[]. " %%G in ('ver') do if %%G lss 16299 goto :true
-start /wait msi.exe
+start /wait msui.exe
 exit /b
 :true
 (

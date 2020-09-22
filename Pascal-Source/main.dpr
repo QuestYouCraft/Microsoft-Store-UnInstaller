@@ -2,7 +2,7 @@ Program HiAsm;
 {$ifdef F_P} {$APPTYPE GUI} {$endif}
 {$R allres.res}
 uses 
-  hiMainForm_266EC70,
+  hiMainForm_24B82D0,
   Windows,
   kol,Share;
 
@@ -12,8 +12,8 @@ if ParamStr(1) = '/ih' then
     MessageBox(0,'Сделано в HiAsm.','HiAsm Info',MB_OK);
     Halt;
   end;
-  ClassMain := TClassMainForm_266EC70.Create;
-  ClassMain.MainForm_266EC70.Start;
+  ClassMain := TClassMainForm_24B82D0.Create;
+  ClassMain.MainForm_24B82D0.Start;
   Run(Applet);
   ClassMain.Destroy;
 end.

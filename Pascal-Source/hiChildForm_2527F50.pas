@@ -1,4 +1,4 @@
-unit hiChildForm_26D84D0;
+unit hiChildForm_2527F50;
 
 interface
 
@@ -14,21 +14,22 @@ uses
   kol,Share;
 
 type
-TClassChildForm_26D84D0 = class(TClassMultiBase)
+TClassChildForm_2527F50 = class(TClassMultiBase)
  public
-  EditMulti_25FD1D0:THIEditMulti;
-  Label_266F0D0:THILabel;
-  MainForm_266F170:THIMainForm;
-  Label_266F210:THILabel;
-  Button_266F2B0:THIButton;
-  Label_266F350:THILabel;
-  Button_266F3F0:THIButton;
-  WinExec_265EA48:THIWinExec;
-  WinExec_265EC10:THIWinExec;
-  Label_266F490:THILabel;
-  Label_266F5D0:THILabel;
-  WinExec_265EAE0:THIWinExec;
-  Hub_26D8580:THIHub;
+  EditMulti_244C510:THIEditMulti;
+  Label_24B8730:THILabel;
+  MainForm_24B87D0:THIMainForm;
+  Label_24B8870:THILabel;
+  Button_24B8910:THIButton;
+  Label_24B89B0:THILabel;
+  Button_24B8A50:THIButton;
+  WinExec_24AE9B0:THIWinExec;
+  WinExec_24AEB78:THIWinExec;
+  Label_24B8AF0:THILabel;
+  Label_24B8C30:THILabel;
+  WinExec_24AEA48:THIWinExec;
+  Hub_2528000:THIHub;
+  Label_24B93B0:THILabel;
 
   ParentClass:TObject;
 
@@ -36,28 +37,28 @@ TClassChildForm_26D84D0 = class(TClassMultiBase)
   destructor Destroy; override;
  end;
 
-  function Create_hiChildForm_26D84D0(_parent:pointer; Control:PControl; _ParentClass:TObject):THiEditMulti;
+  function Create_hiChildForm_2527F50(_parent:pointer; Control:PControl; _ParentClass:TObject):THiEditMulti;
 
 implementation
 
 
-function Create_hiChildForm_26D84D0;
+function Create_hiChildForm_2527F50;
 begin
-  Result := THiEditMulti(TClassChildForm_26D84D0.Create(_parent, Control, _ParentClass).Child);
+  Result := THiEditMulti(TClassChildForm_2527F50.Create(_parent, Control, _ParentClass).Child);
 end;
 
-constructor TClassChildForm_26D84D0.Create;
+constructor TClassChildForm_2527F50.Create;
 begin
   inherited;
   ParentClass := _ParentClass;
- //MainForm_266F170 - Main
-  MainForm_266F170 := THIMainForm.Create(_Control);
-  with MainForm_266F170 do begin
+ //MainForm_24B87D0 - Main
+  MainForm_24B87D0 := THIMainForm.Create(_Control);
+  with MainForm_24B87D0 do begin
     ManFlags := 0;
     _prop_Left := 35;
     _prop_Top := 105;
     _prop_Width := 400;
-    _prop_Height := 190;
+    _prop_Height := 208;
     _prop_Align := caNone;
     _prop_Color := -16777201;
     _prop_Font := hiCreateFont('MS Sans Serif',8,0,0,1);
@@ -90,14 +91,14 @@ begin
     Init;
   end;
 //Init for EditMulti;
-  EditMulti_25FD1D0 := THIEditMulti.Create;
-  with EditMulti_25FD1D0 do begin
+  EditMulti_244C510 := THIEditMulti.Create;
+  with EditMulti_244C510 do begin
     SetLength(Works,1);
     SetLength(Vars, 0);
   end;
 //Init for Label;
-  Label_266F0D0 := THILabel.Create(MainForm_266F170.Control);
-  with Label_266F0D0 do begin
+  Label_24B8730 := THILabel.Create(MainForm_24B87D0.Control);
+  with Label_24B8730 do begin
     ManFlags := 0;
     _prop_Left := 10;
     _prop_Top := 65;
@@ -133,8 +134,8 @@ begin
     Init;
   end;
 //Init for Label;
-  Label_266F210 := THILabel.Create(MainForm_266F170.Control);
-  with Label_266F210 do begin
+  Label_24B8870 := THILabel.Create(MainForm_24B87D0.Control);
+  with Label_24B8870 do begin
     ManFlags := 0;
     _prop_Left := 0;
     _prop_Top := 10;
@@ -170,8 +171,8 @@ begin
     Init;
   end;
 //Init for Button;
-  Button_266F2B0 := THIButton.Create(MainForm_266F170.Control);
-  with Button_266F2B0 do begin
+  Button_24B8910 := THIButton.Create(MainForm_24B87D0.Control);
+  with Button_24B8910 do begin
     ManFlags := 0;
     _prop_Left := 10;
     _prop_Top := 85;
@@ -197,8 +198,8 @@ begin
     Init;
   end;
 //Init for Label;
-  Label_266F350 := THILabel.Create(MainForm_266F170.Control);
-  with Label_266F350 do begin
+  Label_24B89B0 := THILabel.Create(MainForm_24B87D0.Control);
+  with Label_24B89B0 do begin
     ManFlags := 0;
     _prop_Left := 65;
     _prop_Top := 110;
@@ -234,8 +235,8 @@ begin
     Init;
   end;
 //Init for Button;
-  Button_266F3F0 := THIButton.Create(MainForm_266F170.Control);
-  with Button_266F3F0 do begin
+  Button_24B8A50 := THIButton.Create(MainForm_24B87D0.Control);
+  with Button_24B8A50 do begin
     ManFlags := 0;
     _prop_Left := 45;
     _prop_Top := 130;
@@ -261,8 +262,8 @@ begin
     Init;
   end;
 //Init for WinExec;
-  WinExec_265EA48 := THIWinExec.Create;
-  with WinExec_265EA48 do begin
+  WinExec_24AE9B0 := THIWinExec.Create;
+  with WinExec_24AE9B0 do begin
     _prop_Param := PChar(#0);
     _prop_FileName := PChar('https://github.com/kkkgo'#0);
     _prop_WorkingDir := PChar(#0);
@@ -271,8 +272,8 @@ begin
     _prop_Action := PChar('open'#0);
   end;
 //Init for WinExec;
-  WinExec_265EC10 := THIWinExec.Create;
-  with WinExec_265EC10 do begin
+  WinExec_24AEB78 := THIWinExec.Create;
+  with WinExec_24AEB78 do begin
     _prop_Param := PChar(#0);
     _prop_FileName := PChar('https://github.com/kkkgo/LTSC-Add-MicrosoftStore'#0);
     _prop_WorkingDir := PChar(#0);
@@ -281,8 +282,8 @@ begin
     _prop_Action := PChar('open'#0);
   end;
 //Init for Label;
-  Label_266F490 := THILabel.Create(MainForm_266F170.Control);
-  with Label_266F490 do begin
+  Label_24B8AF0 := THILabel.Create(MainForm_24B87D0.Control);
+  with Label_24B8AF0 do begin
     ManFlags := 0;
     _prop_Left := 245;
     _prop_Top := 80;
@@ -318,8 +319,8 @@ begin
     Init;
   end;
 //Init for Label;
-  Label_266F5D0 := THILabel.Create(MainForm_266F170.Control);
-  with Label_266F5D0 do begin
+  Label_24B8C30 := THILabel.Create(MainForm_24B87D0.Control);
+  with Label_24B8C30 do begin
     ManFlags := 0;
     _prop_Left := 205;
     _prop_Top := 105;
@@ -355,8 +356,8 @@ begin
     Init;
   end;
 //Init for WinExec;
-  WinExec_265EAE0 := THIWinExec.Create;
-  with WinExec_265EAE0 do begin
+  WinExec_24AEA48 := THIWinExec.Create;
+  with WinExec_24AEA48 do begin
     _prop_Param := PChar(#0);
     _prop_FileName := PChar('https://github.com/QuestYouCraft'#0);
     _prop_WorkingDir := PChar(#0);
@@ -365,59 +366,99 @@ begin
     _prop_Action := PChar('open'#0);
   end;
 //Init for Hub;
-  Hub_26D8580 := THIHub.Create;
-  with Hub_26D8580 do begin
+  Hub_2528000 := THIHub.Create;
+  with Hub_2528000 do begin
     _prop_InCount := 1;
     _prop_OutCount := 2;
   end;
-  Child := EditMulti_25FD1D0;
-  EditMulti_25FD1D0.MainClass := Self;
-  EditMulti_25FD1D0.Parent := _parent;
+//Init for Label;
+  Label_24B93B0 := THILabel.Create(MainForm_24B87D0.Control);
+  with Label_24B93B0 do begin
+    ManFlags := 0;
+    _prop_Left := 0;
+    _prop_Top := 160;
+    _prop_Width := 390;
+    _prop_Height := 17;
+    _prop_Align := caNone;
+    _prop_Color := -16777201;
+    _prop_Font := hiCreateFont('Segoe UI',8,0,0,1);
+    _prop_ParentFont := False;
+    _prop_Visible := True;
+    _prop_Enabled := True;
+    _prop_Cursor := crDefault;
+    _prop_KeyPreview := True;
+    _prop_TabOrder := 0;
+    _prop_Ctl3D := 1;
+    _prop_WinStyle := 0;
+    _prop_Name := PChar(#0);
+    _prop_Hint := PChar(#0);
+    _prop_WidthScale := 0;
+    _prop_HeightScale := 0;
+    _prop_ModeSp := spNone;
+    _prop_SizeSp := 4;
+    _prop_ColorSp := -16777201;
+    _prop_MinOwn := 0;
+    _prop_MinRest := 0;
+    _prop_Transparent := False;
+    _prop_Caption := PChar('Version: 1.1'#0);
+    _prop_AutoSize := False;
+    _prop_Alignment := taCenter;
+    _prop_ColorHover := 0;
+    _prop_Underline := False;
+    _prop_CaptionOnClick := False;
+    Init;
+  end;
+  Child := EditMulti_244C510;
+  EditMulti_244C510.MainClass := Self;
+  EditMulti_244C510.Parent := _parent;
  //Make all connection in scheme
-  EditMulti_25FD1D0.Works[0]               := _DoEvent(Hub_26D8580.doEvent,0);
-  Button_266F2B0._event_onClick            := _DoEvent(WinExec_265EC10._work_doShellExec,1);
-  Button_266F3F0._event_onClick            := _DoEvent(WinExec_265EA48._work_doShellExec,1);
-  Label_266F5D0._event_onClick             := _DoEvent(WinExec_265EAE0._work_doShellExec,1);
-  Hub_26D8580.onEvent[0]                   := _DoEvent(MainForm_266F170._work_doVisible,4);
-  Hub_26D8580.onEvent[1]                   := _DoEvent(MainForm_266F170._work_doCenterPos,5);
-  Label_266F0D0._prop_HintManager := nil;
-  Label_266F0D0._prop_Layout := nil;
-  MainForm_266F170._prop_HintManager := nil;
-  MainForm_266F170._prop_Layout := nil;
-  MainForm_266F170._prop_TransparentManager := nil;
-  MainForm_266F170._prop_FormFastening := nil;
-  Label_266F210._prop_HintManager := nil;
-  Label_266F210._prop_Layout := nil;
-  Button_266F2B0._prop_HintManager := nil;
-  Button_266F2B0._prop_Layout := nil;
-  Label_266F350._prop_HintManager := nil;
-  Label_266F350._prop_Layout := nil;
-  Button_266F3F0._prop_HintManager := nil;
-  Button_266F3F0._prop_Layout := nil;
-  Label_266F490._prop_HintManager := nil;
-  Label_266F490._prop_Layout := nil;
-  Label_266F5D0._prop_HintManager := nil;
-  Label_266F5D0._prop_Layout := nil;
-  MainForm_266F170.Control.Tabulate;
+  EditMulti_244C510.Works[0]               := _DoEvent(Hub_2528000.doEvent,0);
+  Button_24B8910._event_onClick            := _DoEvent(WinExec_24AEB78._work_doShellExec,1);
+  Button_24B8A50._event_onClick            := _DoEvent(WinExec_24AE9B0._work_doShellExec,1);
+  Label_24B8C30._event_onClick             := _DoEvent(WinExec_24AEA48._work_doShellExec,1);
+  Hub_2528000.onEvent[0]                   := _DoEvent(MainForm_24B87D0._work_doVisible,4);
+  Hub_2528000.onEvent[1]                   := _DoEvent(MainForm_24B87D0._work_doCenterPos,5);
+  Label_24B8730._prop_HintManager := nil;
+  Label_24B8730._prop_Layout := nil;
+  MainForm_24B87D0._prop_HintManager := nil;
+  MainForm_24B87D0._prop_Layout := nil;
+  MainForm_24B87D0._prop_TransparentManager := nil;
+  MainForm_24B87D0._prop_FormFastening := nil;
+  Label_24B8870._prop_HintManager := nil;
+  Label_24B8870._prop_Layout := nil;
+  Button_24B8910._prop_HintManager := nil;
+  Button_24B8910._prop_Layout := nil;
+  Label_24B89B0._prop_HintManager := nil;
+  Label_24B89B0._prop_Layout := nil;
+  Button_24B8A50._prop_HintManager := nil;
+  Button_24B8A50._prop_Layout := nil;
+  Label_24B8AF0._prop_HintManager := nil;
+  Label_24B8AF0._prop_Layout := nil;
+  Label_24B8C30._prop_HintManager := nil;
+  Label_24B8C30._prop_Layout := nil;
+  Label_24B93B0._prop_HintManager := nil;
+  Label_24B93B0._prop_Layout := nil;
+  MainForm_24B87D0.Control.Tabulate;
 
-  ParentElement := MainForm_266F170;
+  ParentElement := MainForm_24B87D0;
 end;
 
-destructor TClassChildForm_26D84D0.Destroy;
+destructor TClassChildForm_2527F50.Destroy;
 begin
-  Hub_26D8580.Destroy;
-  WinExec_265EAE0.Destroy;
-  Label_266F5D0.Destroy;
-  Label_266F490.Destroy;
-  WinExec_265EC10.Destroy;
-  WinExec_265EA48.Destroy;
-  Button_266F3F0.Destroy;
-  Label_266F350.Destroy;
-  Button_266F2B0.Destroy;
-  Label_266F210.Destroy;
-  Label_266F0D0.Destroy;
-  EditMulti_25FD1D0.Destroy;
-  MainForm_266F170.Destroy;
+  Label_24B93B0.Destroy;
+  Hub_2528000.Destroy;
+  WinExec_24AEA48.Destroy;
+  Label_24B8C30.Destroy;
+  Label_24B8AF0.Destroy;
+  WinExec_24AEB78.Destroy;
+  WinExec_24AE9B0.Destroy;
+  Button_24B8A50.Destroy;
+  Label_24B89B0.Destroy;
+  Button_24B8910.Destroy;
+  Label_24B8870.Destroy;
+  Label_24B8730.Destroy;
+  EditMulti_244C510.Destroy;
+  MainForm_24B87D0.Destroy;
   inherited;
 end;
 
