@@ -869,6 +869,7 @@ Add(Message,9613137,126,994)
  Message="Do you want to remove all libraries (for running UWP apps)?"
  Caption="Remove libraries"
  Type=2
+ Icon=2
  link(onMessage,13505681:doValue,[(174,1000)(174,1035)])
 }
 Add(Memory,13505681,189,1029)
