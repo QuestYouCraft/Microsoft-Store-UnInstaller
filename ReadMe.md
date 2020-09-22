@@ -15,7 +15,7 @@
       - [Windows Store](#windows-store)
       - [Xbox Identity Provider](#xbox-identity-provider)
 ## What's this?
-**M**icrosoft **S**tore **U**n\\**I**nstaller (earlier to first release (v1.0), **M**icrosoft **S**tore **I**nstaller) is an [**G**raphic **U**ser **I**nterface]-app (based on GitHub project [LTSC-Add-MicrosoftStore](https://github.com/kkkgo/LTSC-Add-MicrosoftStore) from [kkkgo](https://github.com/kkkgo)) that adds the functionality of installing [**U**niversal **W**indows **P**latform]-apps to Windows 10 (optionally from the Microsoft Store, formerly called the Windows Store), provided that this feature was removed in your version of the Windows assembly, or was absent altogether.
+**M**icrosoft **S**tore **U**n\\**I**nstaller (earlier to [first release (v1.0)](https://github.com/QuestYouCraft/Microsoft-Store-UnInstaller/releases/tag/v1.0), **M**icrosoft **S**tore **I**nstaller) is an [**G**raphic **U**ser **I**nterface]-app (based on GitHub project [LTSC-Add-MicrosoftStore](https://github.com/kkkgo/LTSC-Add-MicrosoftStore) from [kkkgo](https://github.com/kkkgo)) that adds the functionality of installing [**U**niversal **W**indows **P**latform]-apps to Windows 10 (optionally from the Microsoft Store, formerly called the Windows Store), provided that this feature was removed in your version of the Windows assembly, or was absent altogether.
 ## System requirements
 - OS: Windows 10 version 1709 Fall Creators Update and higher
 ## Description of UWP components
